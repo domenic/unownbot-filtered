@@ -7,14 +7,17 @@
     "twitter",
     "new york city"
   ],
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
   "repository": "domenic/nycpokespawn-filtered",
   "main": "lib/nycpokespawn-filtered.js",
   "bin": "bin/daemon.js",
   "files": [
-    "lib/"
+    "lib/",
+    "bin/",
+    "scripts/",
+    "test/fixtures/tweets.json"
   ],
   "scripts": {
     "lint": "eslint lib scripts test",
