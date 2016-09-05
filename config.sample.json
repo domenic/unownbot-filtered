@@ -1,8 +1,18 @@
 {
-  "consumerKey": "",
-  "consumerSecret": "",
-  "accessToken": "",
-  "accessTokenSecret": "",
+  "twitter": {
+    "consumerKey": "",
+    "consumerSecret": "",
+    "accessToken": "",
+    "accessTokenSecret": ""
+  },
+
+  "twilio": {
+    "accountSID": "",
+    "authToken": "",
+    "phoneNumber": "+15551234567"
+  },
+
+  "numberToText": "+15551112222",
 
   "accountIDToFollow": "754728450573930496",
 

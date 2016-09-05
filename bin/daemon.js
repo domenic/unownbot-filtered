@@ -4,16 +4,16 @@ const Twit = require("twit");
 const config = require("../config.json");
 const nycpokespawnFiltered = require("..");
 
-const stream = createTweetStream(config);
+const stream = createTweetStream(config.twitter, config.accountIDToFollow);
 nycpokespawnFiltered(stream, config);
 
-function createTweetStream(config) {
+function createTweetStream(twitterConfig, accountIDToFollow) {
   const t = new Twit({
-    consumer_key: config.consumerKey,
-    consumer_secret: config.consumerSecret,
-    access_token: config.accessToken,
-    access_token_secret: config.accessTokenSecret
+    consumer_key: twitterConfig.consumerKey,
+    consumer_secret: twitterConfig.consumerSecret,
+    access_token: twitterConfig.accessToken,
+    access_token_secret: twitterConfig.accessTokenSecret
   });
 
-  return t.stream("statuses/filter", { follow: config.accountIDToFollow });
+  return t.stream("statuses/filter", { follow: accountIDToFollow });
 }
