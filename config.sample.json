@@ -6,6 +6,27 @@
 
   "accountIDToFollow": "754728450573930496",
 
+  "locations": [
+    {
+      "label": "Grand Army Plaza",
+      "latitude": 40.7609104,
+      "longitude": -73.9691941,
+      "radius": 3
+    },
+    {
+      "label": "Home",
+      "latitude": 40.7362827,
+      "longitude": -73.9836351,
+      "radius": 3
+    },
+    {
+      "label": "Work",
+      "latitude": 40.7373466,
+      "longitude": -73.9985517,
+      "radius": 1
+    }
+  ],
+
   "pokemonDesired": [
     "Bulbasaur",
     "Ivysaur",
