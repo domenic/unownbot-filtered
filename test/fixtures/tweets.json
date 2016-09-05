@@ -1,0 +1,1042 @@
+[
+  {
+    "created_at": "Mon Sep 05 19:43:25 +0000 2016",
+    "id": 772882851150852100,
+    "id_str": "772882851150852096",
+    "text": "Dragonite at 380 Riverside Dr, 10025 until 3:56:05 PM. #PokemonGo https://t.co/KSxFnmIdbp",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            55,
+            65
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/KSxFnmIdbp",
+          "expanded_url": "https://goo.gl/LhphUu",
+          "display_url": "goo.gl/LhphUu",
+          "indices": [
+            66,
+            89
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:38:42 +0000 2016",
+    "id": 772881664448073700,
+    "id_str": "772881664448073729",
+    "text": "Dragonite at 641 W 138th St, 10031 until 3:47:48 PM. #PokemonGo https://t.co/DfzeG3RgGJ",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            53,
+            63
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/DfzeG3RgGJ",
+          "expanded_url": "https://goo.gl/wMJ7Wg",
+          "display_url": "goo.gl/wMJ7Wg",
+          "indices": [
+            64,
+            87
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:19:36 +0000 2016",
+    "id": 772876855636549600,
+    "id_str": "772876855636549632",
+    "text": "Venusaur at 5-7 Bleecker St, 10012 until 3:27:50 PM. #PokemonGo https://t.co/LOmSpfI9SQ",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            53,
+            63
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/LOmSpfI9SQ",
+          "expanded_url": "https://goo.gl/z73XM5",
+          "display_url": "goo.gl/z73XM5",
+          "indices": [
+            64,
+            87
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:18:44 +0000 2016",
+    "id": 772876639466381300,
+    "id_str": "772876639466381312",
+    "text": "Gengar at 37 Riverside Dr, 10023 until 3:31:47 PM. #PokemonGo https://t.co/V3sSzEDUzj",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            51,
+            61
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/V3sSzEDUzj",
+          "expanded_url": "https://goo.gl/ncGGV6",
+          "display_url": "goo.gl/ncGGV6",
+          "indices": [
+            62,
+            85
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:14:52 +0000 2016",
+    "id": 772875664051449900,
+    "id_str": "772875664051449857",
+    "text": "Ninetales at 23 W 52nd St, 10019 until 3:23:12 PM. #PokemonGo https://t.co/kr6q188ElQ",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            51,
+            61
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/kr6q188ElQ",
+          "expanded_url": "https://goo.gl/5qmKSc",
+          "display_url": "goo.gl/5qmKSc",
+          "indices": [
+            62,
+            85
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:10:29 +0000 2016",
+    "id": 772874562983854100,
+    "id_str": "772874562983854080",
+    "text": "Chansey at 785 Washington St, 10014 until 3:18:56 PM. #PokemonGo https://t.co/KvNYluEqiu",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            54,
+            64
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/KvNYluEqiu",
+          "expanded_url": "https://goo.gl/ESBTdd",
+          "display_url": "goo.gl/ESBTdd",
+          "indices": [
+            65,
+            88
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:05:06 +0000 2016",
+    "id": 772873208030650400,
+    "id_str": "772873208030650368",
+    "text": "Venusaur at 4 E 67th St, 10065 until 3:13:34 PM. #PokemonGo https://t.co/StQi6lfT0M",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            49,
+            59
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/StQi6lfT0M",
+          "expanded_url": "https://goo.gl/UI2yms",
+          "display_url": "goo.gl/UI2yms",
+          "indices": [
+            60,
+            83
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 19:02:54 +0000 2016",
+    "id": 772872654609080300,
+    "id_str": "772872654609080320",
+    "text": "Venusaur at 321 E 96th St, 10128 until 3:11:20 PM. #PokemonGo https://t.co/jy2niVyTrA",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            51,
+            61
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/jy2niVyTrA",
+          "expanded_url": "https://goo.gl/myGVxx",
+          "display_url": "goo.gl/myGVxx",
+          "indices": [
+            62,
+            85
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:56:21 +0000 2016",
+    "id": 772871006226620400,
+    "id_str": "772871006226620416",
+    "text": "Venusaur at 310-320 E 4th St, 10009 until 3:04:38 PM. #PokemonGo https://t.co/MSaw5RbXVH",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            54,
+            64
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/MSaw5RbXVH",
+          "expanded_url": "https://goo.gl/QUiech",
+          "display_url": "goo.gl/QUiech",
+          "indices": [
+            65,
+            88
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:50:08 +0000 2016",
+    "id": 772869441839329300,
+    "id_str": "772869441839329280",
+    "text": "Flareon at 2180-2220 1st Avenue, 10029 until 2:58:33 PM. #PokemonGo https://t.co/L5cwpSRXnG",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            57,
+            67
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/L5cwpSRXnG",
+          "expanded_url": "https://goo.gl/DGS3jD",
+          "display_url": "goo.gl/DGS3jD",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:40:14 +0000 2016",
+    "id": 772866950120804400,
+    "id_str": "772866950120804352",
+    "text": "Snorlax at 65 Jumel Terrace, 10032 until 2:48:34 PM. #PokemonGo https://t.co/LtOWrN6GMq",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            53,
+            63
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/LtOWrN6GMq",
+          "expanded_url": "https://goo.gl/XzaUtb",
+          "display_url": "goo.gl/XzaUtb",
+          "indices": [
+            64,
+            87
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:29:10 +0000 2016",
+    "id": 772864163664293900,
+    "id_str": "772864163664293889",
+    "text": "Gengar at 65 E 99th St, 10029 until 2:39:33 PM. #PokemonGo https://t.co/g5uyRy8M2L",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            48,
+            58
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/g5uyRy8M2L",
+          "expanded_url": "https://goo.gl/FnU2dv",
+          "display_url": "goo.gl/FnU2dv",
+          "indices": [
+            59,
+            82
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:28:28 +0000 2016",
+    "id": 772863989495783400,
+    "id_str": "772863989495783424",
+    "text": "Arcanine at 126 W 55th St, 10019 until 2:39:35 PM. #PokemonGo https://t.co/3FAItJTVbH",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            51,
+            61
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/3FAItJTVbH",
+          "expanded_url": "https://goo.gl/vY9R8g",
+          "display_url": "goo.gl/vY9R8g",
+          "indices": [
+            62,
+            85
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:27:57 +0000 2016",
+    "id": 772863856779681800,
+    "id_str": "772863856779681792",
+    "text": "Dragonite at 522 W 147th St, 10031 until 2:38:50 PM. #PokemonGo https://t.co/qebstyp6O3",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            53,
+            63
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/qebstyp6O3",
+          "expanded_url": "https://goo.gl/HdXRfa",
+          "display_url": "goo.gl/HdXRfa",
+          "indices": [
+            64,
+            87
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:15:02 +0000 2016",
+    "id": 772860606865178600,
+    "id_str": "772860606865178624",
+    "text": "Gyarados at 106 W 123rd St, 10027 until 2:27:58 PM. #PokemonGo https://t.co/pgUS5tVJH8",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            52,
+            62
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/pgUS5tVJH8",
+          "expanded_url": "https://goo.gl/Oym1iu",
+          "display_url": "goo.gl/Oym1iu",
+          "indices": [
+            63,
+            86
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 18:00:17 +0000 2016",
+    "id": 772856894306353200,
+    "id_str": "772856894306353152",
+    "text": "Blastoise at 1251 Avenue of the Americas,  1251 6th Ave, 10020 until 2:08:39 PM. #PokemonGo https://t.co/8dDbeX037j",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            81,
+            91
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/8dDbeX037j",
+          "expanded_url": "https://goo.gl/E0MBjD",
+          "display_url": "goo.gl/E0MBjD",
+          "indices": [
+            92,
+            115
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 17:22:47 +0000 2016",
+    "id": 772847460024746000,
+    "id_str": "772847460024745984",
+    "text": "Dragonite at 2502 Amsterdam Ave, 10033 until 1:34:33 PM. #PokemonGo https://t.co/7cZ9HRiYES",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            57,
+            67
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/7cZ9HRiYES",
+          "expanded_url": "https://goo.gl/CHb3sB",
+          "display_url": "goo.gl/CHb3sB",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 17:18:25 +0000 2016",
+    "id": 772846358340460500,
+    "id_str": "772846358340460544",
+    "text": "Arcanine at 121 Seaman Ave, 10034 until 1:30:32 PM. #PokemonGo https://t.co/ySmYhsyKPx",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            52,
+            62
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/ySmYhsyKPx",
+          "expanded_url": "https://goo.gl/4VbIEX",
+          "display_url": "goo.gl/4VbIEX",
+          "indices": [
+            63,
+            86
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 17:16:33 +0000 2016",
+    "id": 772845888574226400,
+    "id_str": "772845888574226432",
+    "text": "Dragonite at 500-540 W 155th St, 10032 until 1:29:02 PM. #PokemonGo https://t.co/sGmTFdxBHc",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            57,
+            67
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/sGmTFdxBHc",
+          "expanded_url": "https://goo.gl/0fpBki",
+          "display_url": "goo.gl/0fpBki",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 05 16:58:16 +0000 2016",
+    "id": 772841289809289200,
+    "id_str": "772841289809289216",
+    "text": "Nidoking at 230-238 W 97th St, 10025 until 1:11:54 PM. #PokemonGo https://t.co/biogDZtUya",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PokemonGo",
+          "indices": [
+            55,
+            65
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/biogDZtUya",
+          "expanded_url": "https://goo.gl/ak0OoE",
+          "display_url": "goo.gl/ak0OoE",
+          "indices": [
+            66,
+            89
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://servepeak.com\" rel=\"nofollow\">rare pogo</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 754728450573930500,
+      "id_str": "754728450573930496"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  }
+]

@@ -15,7 +15,7 @@
     "lib/"
   ],
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint lib scripts test"
   },
   "dependencies": {
     "twit": "^2.2.4"
