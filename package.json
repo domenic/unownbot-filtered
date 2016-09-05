@@ -1,0 +1,26 @@
+{
+  "name": "nycpokespawn-filtered",
+  "description": "A server that will filter @nycpokespawn to specific areas and text you about it",
+  "keywords": [
+    "pokemon",
+    "pokemon go",
+    "twitter"
+  ],
+  "version": "1.0.0-pre",
+  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
+  "license": "WTFPL",
+  "repository": "domenic/nycpokespawn-filtered",
+  "main": "lib/nycpokespawn-filtered.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "dependencies": {
+    "twit": "^2.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0"
+  }
+}
