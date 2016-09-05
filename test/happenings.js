@@ -4,6 +4,9 @@ const test = require("ava");
 const createHappenings = require("../lib/happenings.js");
 const fixtureTweets = require("./fixtures/tweets.json");
 
+const retweetFixtureTweet = fixtureTweets[0];
+const dragoniteFixtureTweet = fixtureTweets[12];
+
 test("emits a 'connected' event when the tweet stream becomes connected", t => {
   t.plan(2);
 
@@ -53,7 +56,7 @@ test("emits a 'desired spawn' event when something desired spawns", t => {
     );
   });
 
-  fakeStream.emit("tweet", fixtureTweets[0]);
+  fakeStream.emit("tweet", dragoniteFixtureTweet);
 });
 
 test("emits an 'undesired spawn' event when something undesired spawns", t => {
@@ -75,7 +78,7 @@ test("emits an 'undesired spawn' event when something undesired spawns", t => {
     );
   });
 
-  fakeStream.emit("tweet", fixtureTweets[0]);
+  fakeStream.emit("tweet", dragoniteFixtureTweet);
 });
 
 test("does not emit an event if the tweet is from a different user", t => {
@@ -89,8 +92,45 @@ test("does not emit an event if the tweet is from a different user", t => {
     t.fail("'undesired spawn' event must not be emitted");
   });
 
-  const fakeTweet = JSON.parse(JSON.stringify(fixtureTweets[0]));
+  const fakeTweet = JSON.parse(JSON.stringify(dragoniteFixtureTweet));
   fakeTweet.user.id_str = "1235";
+  fakeStream.emit("tweet", fakeTweet);
+});
+
+test("does not emit an event if the tweet is @nycpokespawn retweeting", t => {
+  const fakeStream = new EventEmitter();
+  const happenings = createHappenings(fakeStream, ["Dragonite"], "754728450573930496", []);
+
+  happenings.on("desired spawn", () => {
+    t.fail("'desired spawn' event must not be emitted");
+  });
+  happenings.on("undesired spawn", () => {
+    t.fail("'undesired spawn' event must not be emitted");
+  });
+
+  fakeStream.emit("tweet", retweetFixtureTweet);
+});
+
+test("emits an error event if it can't parse the tweet", t => {
+  t.plan(2);
+
+  const fakeStream = new EventEmitter();
+  const happenings = createHappenings(fakeStream, ["Dragonite"], "754728450573930496", []);
+
+  const fakeTweet = JSON.parse(JSON.stringify(dragoniteFixtureTweet));
+  fakeTweet.text = "I want to tell you something that isn't about a spawning poke!";
+
+  happenings.on("desired spawn", () => {
+    t.fail("'desired spawn' event must not be emitted");
+  });
+  happenings.on("undesired spawn", () => {
+    t.fail("'undesired spawn' event must not be emitted");
+  });
+  happenings.on("error", error => {
+    t.pass("'error' event must be emitted");
+    t.is(error.message, `Could not parse tweet with text '${fakeTweet.text}'`);
+  });
+
   fakeStream.emit("tweet", fakeTweet);
 });
 
@@ -124,7 +164,7 @@ test.cb("emits a 'desired spawn within range' event when something desired spawn
     t.end();
   });
 
-  fakeStream.emit("tweet", fixtureTweets[0]);
+  fakeStream.emit("tweet", dragoniteFixtureTweet);
 });
 
 test("does not emit 'desired spawn within range' event when something desired spawns outside of the range", t => {
@@ -142,5 +182,5 @@ test("does not emit 'desired spawn within range' event when something desired sp
     t.fail("'desired spawn within range' must not be emitted");
   });
 
-  fakeStream.emit("tweet", fixtureTweets[0]);
+  fakeStream.emit("tweet", dragoniteFixtureTweet);
 });
