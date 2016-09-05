@@ -15,12 +15,14 @@
     "lib/"
   ],
   "scripts": {
-    "lint": "eslint lib scripts test"
+    "lint": "eslint lib scripts test",
+    "test": "ava"
   },
   "dependencies": {
     "twit": "^2.2.4"
   },
   "devDependencies": {
+    "ava": "^0.16.0",
     "eslint": "^3.4.0"
   }
 }
