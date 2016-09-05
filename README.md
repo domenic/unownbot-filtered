@@ -1,6 +1,8 @@
 # @nycpokespawn, filtered
 
-This program is designed to give you a filtered view of the [@nycpokespawn](https://twitter.com/nycpokespawn) Twitter account. It filters by Pokémon (so you can avoid getting notified about ones you already have) and by distance to a set of locations (so you can be notified only about Pokémon that spawn near locations you usually hang out at).
+This program is designed to give you a filtered view of the [@nycpokespawn](https://twitter.com/nycpokespawn) Twitter account. It **filters by Pokémon** (so you can avoid getting notified about ones you already have) **and by distance to a set of locations** (so you can be notified only about Pokémon that spawn near locations you usually hang out at).
+
+![Screenshot of text messages sent](screenshot.png)
 
 ## Setup
 
