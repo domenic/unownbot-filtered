@@ -2,10 +2,12 @@
 const { EventEmitter } = require("events");
 const config = require("../config.json");
 const fakeTweets = require("../test/fixtures/tweets.json");
+const createLogger = require("../lib/logger.js");
 const nycpokespawnFiltered = require("..");
 
 const stream = new EventEmitter();
-nycpokespawnFiltered(stream, config);
+const logger = createLogger(console);
+nycpokespawnFiltered(stream, logger, config);
 
 stream.emit("connected");
 

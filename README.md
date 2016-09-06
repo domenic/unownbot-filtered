@@ -46,7 +46,17 @@ to start the program. It will run forever, logging output for your information, 
 
 You could leave this running on your computer, if it doesn't turn off often, or maybe you could get a cloud provider. I haven't looked into that yet, but [now](https://zeit.co/now/) is really nice and easy to use, although you have to pay to keep things secret (like your API credentials).
 
-## Future Possibilities
+## Running as a web server (experimental)
+
+You can do
+
+```
+npm run start
+```
+
+to start a server which will act the same as the daemon, but visiting it will display the log file. This is helpful if deploying somewhere (like now.sh) which demands that you run a HTTP server.
+
+## Future possibilities
 
 - If you have overlapping zones, only text about one of them
 - Add walking or cab times to the messages
