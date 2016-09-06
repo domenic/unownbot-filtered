@@ -66,6 +66,18 @@ to start the program. It will run forever, logging output for your information, 
 
 You could leave this running on your computer, if it doesn't turn off often, or maybe you could get a cloud provider. I haven't looked into that yet, but [now](https://zeit.co/now/) is really nice and easy to use, although you have to pay to keep things secret (like your API credentials).
 
+## Running multiple instances
+
+If you want to run multiple instances (e.g., set up one for you and another for your friends), you can use multiple config files.
+
+To do that, copy `config.sample.json` to multiple files, e.g. `config-alice.json` and `config-bob.json`, and fill it out differently for each person. (You can share API credentials between configs, although you might get rate limited if you share them too much.) You will want to change the `configLabel` field with some identifying value (e.g. their name).
+
+Once you have the configs set up, run the program passing each config file. For example, to run an instance for Alice, do
+
+```
+nycpokespawn-filtered config-alice.json
+```
+
 ## Running as a web server (experimental)
 
 If you've cloned the source repository, you can do

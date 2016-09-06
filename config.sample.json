@@ -1,4 +1,6 @@
 {
+  "configLabel": "",
+
   "twitter": {
     "consumerKey": "",
     "consumerSecret": "",
@@ -29,13 +31,13 @@
       "radius": 3
     },
     {
-      "label": "Home",
+      "label": "home",
       "latitude": 40.7362827,
       "longitude": -73.9836351,
       "radius": 3
     },
     {
-      "label": "Work",
+      "label": "work",
       "latitude": 40.7373466,
       "longitude": -73.9985517,
       "radius": 1
