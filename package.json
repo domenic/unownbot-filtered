@@ -1,6 +1,6 @@
 {
   "name": "nycpokespawn-filtered",
-  "description": "A daemon that will filter @nycpokespawn to specific areas and text you about it",
+  "description": "A daemon that will filter @nycpokespawn to specific areas and Pokémon, and text you about it",
   "keywords": [
     "pokemon",
     "pokemon go",
@@ -12,7 +12,10 @@
   "license": "WTFPL",
   "repository": "domenic/nycpokespawn-filtered",
   "main": "lib/nycpokespawn-filtered.js",
-  "bin": "bin/daemon.js",
+  "bin": {
+    "nycpokespawn-filtered": "bin/daemon.js",
+    "nycpokespawn-filtered-test": "scripts/run-on-test-data.js"
+  },
   "files": [
     "lib/",
     "bin/",

@@ -6,6 +6,26 @@ This program is designed to give you a filtered view of the [@nycpokespawn](http
 
 ## Setup
 
+### Getting the code
+
+This program is written in [Node.js](https://nodejs.org/), which you'll need to install on your computer. If you already have Node.js installed, make sure it is at least v6.5.0; if not, update.
+
+Once you have Node.js installed, you'll need to open a terminal ([Mac documentation](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line), [Windows documentation](http://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)). Then install the program by typing
+
+```
+npm install -g nycpokespawn-filtered
+```
+
+This will take a while as it downloads this program from the internet. Once it's done, try to run it, by typing:
+
+```
+nycpokespawn-filtered
+```
+
+This will error, telling you that you need to set up the config file. Follow those instructions, using the below section for guidance. Once you've done all that, you can type `nycpokespawn-filtered` in the console again, and this time it should work!
+
+### Configuring the program
+
 - Copy `config.sample.json` to `config.json`.
 - Add your Twitter API credentials:
   - [Generate a Twitter token](https://dev.twitter.com/oauth/overview/application-owner-access-tokens) for your account.
@@ -26,20 +46,20 @@ This program is designed to give you a filtered view of the [@nycpokespawn](http
 
 ## Testing
 
-You can test the program by running
+You can test the program after installing it by running
 
 ```
-node scripts/run-on-test-data.js
+nycpokespawn-filtered-test
 ```
 
-which will use the test data stored in `test/fixtures/tweets.json` to run through the normal program, log what's going on, and text you if appropriate. This can be used to ensure you did the setup correctly.
+which will use the test data stored in this repository's `test/fixtures/tweets.json` file to run through the normal program, log what's going on, and text you if appropriate. This can be used to ensure you did the setup correctly.
 
 ## Running
 
-Just do
+Once setup is complete, do
 
 ```
-node bin/daemon.js
+nycpokespawn-filtered
 ```
 
 to start the program. It will run forever, logging output for your information, and texting when appropriate.
@@ -48,7 +68,7 @@ You could leave this running on your computer, if it doesn't turn off often, or 
 
 ## Running as a web server (experimental)
 
-You can do
+If you've cloned the source repository, you can do
 
 ```
 npm run start
