@@ -66,7 +66,11 @@ nycpokespawn-filtered
 
 to start the program. It will run forever, logging output for your information, and texting when appropriate.
 
-You could leave this running on your computer, if it doesn't turn off often, or maybe you could get a cloud provider. I haven't looked into that yet, but [now](https://zeit.co/now/) is really nice and easy to use, although you have to pay to keep things secret (like your API credentials).
+You could leave this running on your computer, if it doesn't turn off often, or maybe you could get a cloud provider like EC2. If you're on a Linux system and want to run things in the background, you can use the command
+
+```
+nohup nycpokespawn-filtered my-config.json >my-log.txt &
+```
 
 ## Running multiple instances
 
