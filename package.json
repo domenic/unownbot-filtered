@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "haversine": "^1.0.0",
-    "koa": "^1.2.2",
     "then-fs": "^2.0.0",
     "twilio": "^2.10.0",
     "twit": "^2.2.4"

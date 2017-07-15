@@ -84,16 +84,6 @@ Once you have the configs set up, run the program passing each config file. For 
 nycpokespawn-filtered config-alice.json
 ```
 
-## Running as a web server (experimental)
-
-If you've cloned the source repository, you can do
-
-```
-npm run start
-```
-
-to start a server which will act the same as the daemon, but visiting it will display the log file. This is helpful if deploying somewhere (like now.sh) which demands that you run a HTTP server.
-
 ## Future possibilities
 
 - If you have overlapping zones, only text about one of them
