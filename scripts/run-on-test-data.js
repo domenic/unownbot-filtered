@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 const { EventEmitter } = require("events");
-const nycpokespawnFiltered = require("..");
+const unownbotFiltered = require("..");
 const createLogger = require("../lib/logger.js");
 const getConfig = require("../lib/config.js");
 const fakeTweets = require("../test/fixtures/tweets.json");
@@ -9,7 +9,7 @@ const fakeTweets = require("../test/fixtures/tweets.json");
 const stream = new EventEmitter();
 const config = getConfig();
 const logger = createLogger(console);
-nycpokespawnFiltered(stream, logger, config);
+unownbotFiltered(stream, logger, config);
 
 stream.emit("connected");
 
