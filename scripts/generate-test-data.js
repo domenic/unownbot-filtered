@@ -20,10 +20,10 @@ t.get("statuses/user_timeline", {
   exclude_replies: false,
   include_rts: true
 })
-.then(({ data }) => {
-  fs.writeFileSync(destFilename, JSON.stringify(data, undefined, 2));
-})
-.catch(e => {
-  console.error(e.stack);
-  process.exit(1);
-});
+  .then(({ data }) => {
+    fs.writeFileSync(destFilename, JSON.stringify(data, undefined, 2));
+  })
+  .catch(e => {
+    console.error(e.stack);
+    process.exit(1);
+  });

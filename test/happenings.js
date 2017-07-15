@@ -108,6 +108,8 @@ test("does not emit an event if the tweet is from a different user", t => {
   const fakeTweet = JSON.parse(JSON.stringify(fixtureTweet));
   fakeTweet.user.id_str = "1235";
   fakeStream.emit("tweet", fakeTweet);
+
+  t.pass("No events were emitted");
 });
 
 test("emits an error event if it can't parse the tweet", t => {
@@ -221,4 +223,6 @@ test("does not emit 'spawn within range' event when an Unown spawns outside of t
   });
 
   fakeStream.emit("tweet", fixtureTweet);
+
+  t.pass("No events were emitted");
 });
