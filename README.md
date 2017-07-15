@@ -79,7 +79,15 @@ Once you have the configs set up, run the program passing each config file. For 
 unownbot-filtered config-alice.json
 ```
 
+## History and credits
+
+This project was [originally](https://github.com/domenic/unownbot-filtered/tree/a100df8846fa7f4eb0cc6fca7693f43fd4fcb199) known as nycpokespawn-filtered, and worked on the now-defunct [@nycpokespawn](https://twitter.com/nycpokespawn) Twitter account.
+
+Later, it was forked by [@benweiss](https://github.com/benweiss) into [benweiss/unownbot-filtered](https://github.com/benweiss/unownbot-filtered); Ben maintained his version for several months, adding features along the way.
+
+Starting 2017-06-10, the @UnownBot twitter account had some downtime. When it came back on 2017-07-14, the format had changed, breaking Ben's unownbot-filtered. I took the opportunity to make my own unownbot-filtered, repurposing and renaming the original nycpokespawn-filtered repository. I was certainly inspired by some of Ben's code; however most of it is from scratch.
+
 ## Future possibilities
 
-- If you have overlapping zones, only text about one of them
-- Add walking or cab times to the messages
+- Add walking or driving times to the messages
+- Allow multiple users within a single zone, like [benweiss/unownbot-filtered](https://github.com/benweiss/unownbot-filtered)
