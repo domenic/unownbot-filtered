@@ -1,6 +1,6 @@
 # @UnownBot, filtered
 
-This program is designed to give you a filtered view of the [@UnownBot](https://twitter.com/UnownBot) Twitter account. It **filters by distance to a set of locations** (so you can be notified only about Unown that spawn near locations you usually hang out at).
+This program is designed to give you a filtered view of the [@UnownBot](https://twitter.com/UnownBot) Twitter account. It **filters by distance to a set of locations** (so you can be notified only about Unown that spawn near locations you can get to).
 
 ![Screenshot of text messages sent](screenshot.png)
 
