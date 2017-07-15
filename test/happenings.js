@@ -5,6 +5,7 @@ const createHappenings = require("../lib/happenings.js");
 const fixtureTweets = require("./fixtures/tweets.json");
 
 const fixtureTweet = fixtureTweets[1];
+const fixtureTweetWithGoodTTL = fixtureTweets[4];
 const fixtureTweetNoIVOrLetter = fixtureTweets[0];
 const nonUnownTweet = fixtureTweets[5];
 
@@ -54,7 +55,7 @@ test("emits a 'spawn' event when an Unown spawns without IV or letter informatio
       [{
         iv: "unknown",
         letter: "unknown",
-        ttl: "<10m 0s",
+        ttl: "unknown",
         url: "https://maps.google.com/?q=35.41025,139.93000"
       }]
     );
@@ -79,7 +80,7 @@ test("emits a 'spawn' event when an Unown spawns with IV and letter information"
       [{
         iv: "60%",
         letter: "V",
-        ttl: "<10m 0s",
+        ttl: "unknown",
         url: "https://maps.google.com/?q=-37.78350,144.95107"
       }]
     );
@@ -89,6 +90,31 @@ test("emits a 'spawn' event when an Unown spawns with IV and letter information"
   });
 
   fakeStream.emit("tweet", fixtureTweet);
+});
+
+test("emits a 'spawn' event when an Unown spawns with a known TTL", t => {
+  t.plan(2);
+
+  const fakeStream = new EventEmitter();
+  const happenings = createHappenings(fakeStream, "837234225715818497", []);
+
+  happenings.on("spawn", (...args) => {
+    t.pass("'spawn' event must be emitted");
+    t.deepEqual(
+      args,
+      [{
+        iv: "49%",
+        letter: "unknown",
+        ttl: "24m 22s",
+        url: "https://maps.google.com/?q=42.38131,-88.06614"
+      }]
+    );
+  });
+  happenings.on("error", err => {
+    t.end(err);
+  });
+
+  fakeStream.emit("tweet", fixtureTweetWithGoodTTL);
 });
 
 test("does not emit an event if the tweet is from a different user", t => {
@@ -152,7 +178,7 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
       [{
         iv: "unknown",
         letter: "unknown",
-        ttl: "<10m 0s",
+        ttl: "unknown",
         url: "https://maps.google.com/?q=35.41025,139.93000",
         distance: 2.9481892766644737,
         closeTo: "Home"
@@ -177,7 +203,7 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
       label: "Home",
       latitude: -37.7,
       longitude: 144.9,
-      radius: 210
+      radius: 20
     }
   ]);
 
@@ -188,7 +214,7 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
       [{
         iv: "60%",
         letter: "V",
-        ttl: "<10m 0s",
+        ttl: "unknown",
         url: "https://maps.google.com/?q=-37.78350,144.95107",
         distance: 10.31371088139344,
         closeTo: "Home"
@@ -202,6 +228,40 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
   });
 
   fakeStream.emit("tweet", fixtureTweet);
+});
+
+test("emits a 'spawn within range' event when an Unown spawns within range with a known TTL", t => {
+  t.plan(2);
+
+  const fakeStream = new EventEmitter();
+  const happenings = createHappenings(fakeStream, "837234225715818497", [
+    {
+      label: "Home",
+      latitude: 42.3,
+      longitude: -88.0,
+      radius: 20
+    }
+  ]);
+
+  happenings.on("spawn within range", (...args) => {
+    t.pass("'spawn within range' event must be emitted");
+    t.deepEqual(
+      args,
+      [{
+        iv: "49%",
+        letter: "unknown",
+        ttl: "24m 22s",
+        url: "https://maps.google.com/?q=42.38131,-88.06614",
+        distance: 10.54964604801562,
+        closeTo: "Home"
+      }]
+    );
+  });
+  happenings.on("error", err => {
+    t.end(err);
+  });
+
+  fakeStream.emit("tweet", fixtureTweetWithGoodTTL);
 });
 
 test("does not emit 'spawn within range' event when an Unown spawns outside of the range", t => {
