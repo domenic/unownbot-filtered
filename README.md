@@ -8,7 +8,7 @@ This program is designed to give you a filtered view of the [@UnownBot](https://
 
 ### Getting the code
 
-This program is written in [Node.js](https://nodejs.org/), which you'll need to install on your computer. If you already have Node.js installed, make sure it is at least v6.5.0; if not, update.
+This program is written in [Node.js](https://nodejs.org/), which you'll need to install on your computer. If you already have Node.js installed, make sure it is at least v8.1.4; if not, update.
 
 Once you have Node.js installed, you'll need to open a terminal ([Mac documentation](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line), [Windows documentation](http://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)). Then install the program by typing
 
