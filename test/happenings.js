@@ -4,7 +4,8 @@ const test = require("ava");
 const createHappenings = require("../lib/happenings.js");
 const fixtureTweets = require("./fixtures/tweets.json");
 
-const fixtureTweet = fixtureTweets[0];
+const fixtureTweet = fixtureTweets[1];
+const fixtureTweetNoIVOrLetter = fixtureTweets[0];
 const nonUnownTweet = fixtureTweets[5];
 
 test("emits a 'connected' event when the tweet stream becomes connected", t => {
@@ -16,6 +17,9 @@ test("emits a 'connected' event when the tweet stream becomes connected", t => {
   happenings.on("connected", (...args) => {
     t.pass("'connected' event must be emitted");
     t.deepEqual(args, [], "zero arguments must be passed");
+  });
+  happenings.on("error", err => {
+    t.end(err);
   });
 
   const fakeResponse = { fake: "response" };
@@ -37,7 +41,7 @@ test("emits an 'error' event when the tweet stream errors", t => {
   fakeStream.emit("error", fakeError);
 });
 
-test("emits a 'spawn' event when an Unown spawns", t => {
+test("emits a 'spawn' event when an Unown spawns without IV or letter information", t => {
   t.plan(2);
 
   const fakeStream = new EventEmitter();
@@ -48,11 +52,40 @@ test("emits a 'spawn' event when an Unown spawns", t => {
     t.deepEqual(
       args,
       [{
-        iv: "-",
+        iv: "unknown",
+        letter: "unknown",
         ttl: "<10m 0s",
         url: "https://maps.google.com/?q=35.41025,139.93000"
       }]
     );
+  });
+  happenings.on("error", err => {
+    t.end(err);
+  });
+
+  fakeStream.emit("tweet", fixtureTweetNoIVOrLetter);
+});
+
+test("emits a 'spawn' event when an Unown spawns with IV and letter information", t => {
+  t.plan(2);
+
+  const fakeStream = new EventEmitter();
+  const happenings = createHappenings(fakeStream, "837234225715818497", []);
+
+  happenings.on("spawn", (...args) => {
+    t.pass("'spawn' event must be emitted");
+    t.deepEqual(
+      args,
+      [{
+        iv: "60%",
+        letter: "V",
+        ttl: "<10m 0s",
+        url: "https://maps.google.com/?q=-37.78350,144.95107"
+      }]
+    );
+  });
+  happenings.on("error", err => {
+    t.end(err);
   });
 
   fakeStream.emit("tweet", fixtureTweet);
@@ -67,6 +100,9 @@ test("does not emit an event if the tweet is from a different user", t => {
   });
   happenings.on("spawn within range", () => {
     t.fail("'spawn within range' event must not be emitted");
+  });
+  happenings.on("error", err => {
+    t.end(err);
   });
 
   const fakeTweet = JSON.parse(JSON.stringify(fixtureTweet));
@@ -94,7 +130,7 @@ test("emits an error event if it can't parse the tweet", t => {
   fakeStream.emit("tweet", nonUnownTweet);
 });
 
-test.cb("emits a 'spawn within range' event when an Unown spawns within range", t => {
+test.cb("emits a 'spawn within range' event when an Unown spawns within range without IV or letter information", t => {
   t.plan(2);
 
   const fakeStream = new EventEmitter();
@@ -112,7 +148,8 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range", 
     t.deepEqual(
       args,
       [{
-        iv: "-",
+        iv: "unknown",
+        letter: "unknown",
         ttl: "<10m 0s",
         url: "https://maps.google.com/?q=35.41025,139.93000",
         distance: 2.9481892766644737,
@@ -121,6 +158,45 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range", 
     );
 
     t.end();
+  });
+  happenings.on("error", err => {
+    t.end(err);
+  });
+
+  fakeStream.emit("tweet", fixtureTweetNoIVOrLetter);
+});
+
+test.cb("emits a 'spawn within range' event when an Unown spawns within range with IV and letter information", t => {
+  t.plan(2);
+
+  const fakeStream = new EventEmitter();
+  const happenings = createHappenings(fakeStream, "837234225715818497", [
+    {
+      label: "Home",
+      latitude: -37.7,
+      longitude: 144.9,
+      radius: 210
+    }
+  ]);
+
+  happenings.on("spawn within range", (...args) => {
+    t.pass("'spawn within range' event must be emitted");
+    t.deepEqual(
+      args,
+      [{
+        iv: "60%",
+        letter: "V",
+        ttl: "<10m 0s",
+        url: "https://maps.google.com/?q=-37.78350,144.95107",
+        distance: 10.31371088139344,
+        closeTo: "Home"
+      }]
+    );
+
+    t.end();
+  });
+  happenings.on("error", err => {
+    t.end(err);
   });
 
   fakeStream.emit("tweet", fixtureTweet);
@@ -139,6 +215,9 @@ test("does not emit 'spawn within range' event when an Unown spawns outside of t
 
   happenings.on("spawn within range", () => {
     t.fail("'spawn within range' must not be emitted");
+  });
+  happenings.on("error", err => {
+    t.end(err);
   });
 
   fakeStream.emit("tweet", fixtureTweet);
