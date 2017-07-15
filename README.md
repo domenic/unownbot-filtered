@@ -49,7 +49,7 @@ You can test the program after installing it by running
 unownbot-filtered-test
 ```
 
-which will use the test data stored in this repository's `test/fixtures/tweets.json` file to run through the normal program, log what's going on, and text you if appropriate. This can be used to ensure you did the setup correctly.
+which will use the test data stored in this repository's `test/fixtures/tweets.json` file to run through the normal program, log what's going on, and text you if appropriate. This can be used to ensure you did the setup correctly. Note that this will output some errors for tweets that are not about Unowns (e.g. the @UnownBot author soliciting donations); this is expected behavior.
 
 ## Running
 
