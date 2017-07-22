@@ -9,15 +9,14 @@ const fixtureTweetWithGoodTTL = fixtureTweets[4];
 const fixtureTweetNoIVOrLetter = fixtureTweets[0];
 const nonUnownTweet = fixtureTweets[5];
 
-test("emits a 'connected' event when the tweet stream becomes connected", t => {
-  t.plan(2);
-
+test.cb("emits a 'connected' event when the tweet stream becomes connected", t => {
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, [], "12345", []);
 
   happenings.on("connected", (...args) => {
     t.pass("'connected' event must be emitted");
     t.deepEqual(args, [], "zero arguments must be passed");
+    t.end();
   });
   happenings.on("error", err => {
     t.end(err);
@@ -27,9 +26,7 @@ test("emits a 'connected' event when the tweet stream becomes connected", t => {
   fakeStream.emit("connected", fakeResponse);
 });
 
-test("emits an 'error' event when the tweet stream errors", t => {
-  t.plan(2);
-
+test.cb("emits an 'error' event when the tweet stream errors", t => {
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, [], "12345", []);
   const fakeError = new Error("boo");
@@ -37,14 +34,13 @@ test("emits an 'error' event when the tweet stream errors", t => {
   happenings.on("error", (...args) => {
     t.pass("'error' event must be emitted");
     t.deepEqual(args, [fakeError], "the error must be passed as an argument");
+    t.end();
   });
 
   fakeStream.emit("error", fakeError);
 });
 
-test("emits a 'spawn' event when an Unown spawns without IV or letter information", t => {
-  t.plan(2);
-
+test.cb("emits a 'spawn' event when an Unown spawns without IV or letter information", t => {
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, "837234225715818497", []);
 
@@ -59,6 +55,7 @@ test("emits a 'spawn' event when an Unown spawns without IV or letter informatio
         url: "https://maps.google.com/?q=35.41025,139.93000"
       }]
     );
+    t.end();
   });
   happenings.on("error", err => {
     t.end(err);
@@ -67,9 +64,7 @@ test("emits a 'spawn' event when an Unown spawns without IV or letter informatio
   fakeStream.emit("tweet", fixtureTweetNoIVOrLetter);
 });
 
-test("emits a 'spawn' event when an Unown spawns with IV and letter information", t => {
-  t.plan(2);
-
+test.cb("emits a 'spawn' event when an Unown spawns with IV and letter information", t => {
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, "837234225715818497", []);
 
@@ -84,6 +79,7 @@ test("emits a 'spawn' event when an Unown spawns with IV and letter information"
         url: "https://maps.google.com/?q=-37.78350,144.95107"
       }]
     );
+    t.end();
   });
   happenings.on("error", err => {
     t.end(err);
@@ -92,7 +88,7 @@ test("emits a 'spawn' event when an Unown spawns with IV and letter information"
   fakeStream.emit("tweet", fixtureTweet);
 });
 
-test("emits a 'spawn' event when an Unown spawns with a known TTL", t => {
+test.cb("emits a 'spawn' event when an Unown spawns with a known TTL", t => {
   t.plan(2);
 
   const fakeStream = new EventEmitter();
@@ -109,6 +105,7 @@ test("emits a 'spawn' event when an Unown spawns with a known TTL", t => {
         url: "https://maps.google.com/?q=42.38131,-88.06614"
       }]
     );
+    t.end();
   });
   happenings.on("error", err => {
     t.end(err);
@@ -117,7 +114,7 @@ test("emits a 'spawn' event when an Unown spawns with a known TTL", t => {
   fakeStream.emit("tweet", fixtureTweetWithGoodTTL);
 });
 
-test("does not emit an event if the tweet is from a different user", t => {
+test.cb("does not emit an event if the tweet is from a different user", t => {
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, "1234", []);
 
@@ -136,9 +133,10 @@ test("does not emit an event if the tweet is from a different user", t => {
   fakeStream.emit("tweet", fakeTweet);
 
   t.pass("No events were emitted");
+  t.end();
 });
 
-test("emits an error event if it can't parse the tweet", t => {
+test.cb("emits an error event if it can't parse the tweet", t => {
   t.plan(2);
 
   const fakeStream = new EventEmitter();
@@ -153,14 +151,13 @@ test("emits an error event if it can't parse the tweet", t => {
   happenings.on("error", error => {
     t.pass("'error' event must be emitted");
     t.is(error.message, `Could not parse tweet with text '${nonUnownTweet.text}'`);
+    t.end();
   });
 
   fakeStream.emit("tweet", nonUnownTweet);
 });
 
 test.cb("emits a 'spawn within range' event when an Unown spawns within range without IV or letter information", t => {
-  t.plan(2);
-
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, "837234225715818497", [
     {
@@ -184,7 +181,6 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
         closeTo: "Home"
       }]
     );
-
     t.end();
   });
   happenings.on("error", err => {
@@ -220,7 +216,6 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
         closeTo: "Home"
       }]
     );
-
     t.end();
   });
   happenings.on("error", err => {
@@ -230,7 +225,7 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
   fakeStream.emit("tweet", fixtureTweet);
 });
 
-test("emits a 'spawn within range' event when an Unown spawns within range with a known TTL", t => {
+test.cb("emits a 'spawn within range' event when an Unown spawns within range with a known TTL", t => {
   t.plan(2);
 
   const fakeStream = new EventEmitter();
@@ -256,6 +251,7 @@ test("emits a 'spawn within range' event when an Unown spawns within range with 
         closeTo: "Home"
       }]
     );
+    t.end();
   });
   happenings.on("error", err => {
     t.end(err);
@@ -264,7 +260,7 @@ test("emits a 'spawn within range' event when an Unown spawns within range with 
   fakeStream.emit("tweet", fixtureTweetWithGoodTTL);
 });
 
-test("does not emit 'spawn within range' event when an Unown spawns outside of the range", t => {
+test.cb("does not emit 'spawn within range' event when an Unown spawns outside of the range", t => {
   const fakeStream = new EventEmitter();
   const happenings = createHappenings(fakeStream, "837234225715818497", [
     {
@@ -285,4 +281,5 @@ test("does not emit 'spawn within range' event when an Unown spawns outside of t
   fakeStream.emit("tweet", fixtureTweet);
 
   t.pass("No events were emitted");
+  t.end();
 });
