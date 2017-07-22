@@ -4,9 +4,9 @@ const test = require("ava");
 const createHappenings = require("../lib/happenings.js");
 const fixtureTweets = require("./fixtures/tweets.json");
 
-const fixtureTweet = fixtureTweets[1];
-const fixtureTweetWithGoodTTL = fixtureTweets[4];
-const fixtureTweetNoIVOrLetter = fixtureTweets[0];
+const fixtureTweet = fixtureTweets[0];
+const fixtureTweetWithGoodTTL = fixtureTweets[10];
+const fixtureTweetNoIVOrLetter = fixtureTweets[6];
 const nonUnownTweet = fixtureTweets[5];
 
 test.cb("emits a 'connected' event when the tweet stream becomes connected", t => {
@@ -51,8 +51,8 @@ test.cb("emits a 'spawn' event when an Unown spawns without IV or letter informa
       [{
         iv: "unknown",
         letter: "unknown",
-        ttl: "unknown",
-        url: "https://maps.google.com/?q=35.41025,139.93000"
+        ttl: "19m 55s",
+        url: "https://maps.google.com/?q=42.98498,-81.23867"
       }]
     );
     t.end();
@@ -73,10 +73,10 @@ test.cb("emits a 'spawn' event when an Unown spawns with IV and letter informati
     t.deepEqual(
       args,
       [{
-        iv: "60%",
-        letter: "V",
+        iv: "28%",
+        letter: "X",
         ttl: "unknown",
-        url: "https://maps.google.com/?q=-37.78350,144.95107"
+        url: "https://maps.google.com/?q=-33.89882,151.03017"
       }]
     );
     t.end();
@@ -99,10 +99,10 @@ test.cb("emits a 'spawn' event when an Unown spawns with a known TTL", t => {
     t.deepEqual(
       args,
       [{
-        iv: "49%",
+        iv: "unknown",
         letter: "unknown",
-        ttl: "24m 22s",
-        url: "https://maps.google.com/?q=42.38131,-88.06614"
+        ttl: "59m 56s",
+        url: "https://maps.google.com/?q=32.68503,-117.17349"
       }]
     );
     t.end();
@@ -162,8 +162,8 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
   const happenings = createHappenings(fakeStream, "837234225715818497", [
     {
       label: "Home",
-      latitude: 35.4,
-      longitude: 139.9,
+      latitude: 42.9,
+      longitude: -81.2,
       radius: 10
     }
   ]);
@@ -175,9 +175,9 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
       [{
         iv: "unknown",
         letter: "unknown",
-        ttl: "unknown",
-        url: "https://maps.google.com/?q=35.41025,139.93000",
-        distance: 2.9481892766644737,
+        ttl: "19m 55s",
+        url: "https://maps.google.com/?q=42.98498,-81.23867",
+        distance: 9.959824198142288,
         closeTo: "Home"
       }]
     );
@@ -197,8 +197,8 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
   const happenings = createHappenings(fakeStream, "837234225715818497", [
     {
       label: "Home",
-      latitude: -37.7,
-      longitude: 144.9,
+      latitude: -33.8,
+      longitude: 151.0,
       radius: 20
     }
   ]);
@@ -208,11 +208,11 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
     t.deepEqual(
       args,
       [{
-        iv: "60%",
-        letter: "V",
+        iv: "28%",
+        letter: "X",
         ttl: "unknown",
-        url: "https://maps.google.com/?q=-37.78350,144.95107",
-        distance: 10.31371088139344,
+        url: "https://maps.google.com/?q=-33.89882,151.03017",
+        distance: 11.33600027054718,
         closeTo: "Home"
       }]
     );
@@ -232,8 +232,8 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
   const happenings = createHappenings(fakeStream, "837234225715818497", [
     {
       label: "Home",
-      latitude: 42.3,
-      longitude: -88.0,
+      latitude: 32.6,
+      longitude: -117.1,
       radius: 20
     }
   ]);
@@ -243,11 +243,11 @@ test.cb("emits a 'spawn within range' event when an Unown spawns within range wi
     t.deepEqual(
       args,
       [{
-        iv: "49%",
+        iv: "unknown",
         letter: "unknown",
-        ttl: "24m 22s",
-        url: "https://maps.google.com/?q=42.38131,-88.06614",
-        distance: 10.54964604801562,
+        ttl: "59m 56s",
+        url: "https://maps.google.com/?q=32.68503,-117.17349",
+        distance: 11.693738886491372,
         closeTo: "Home"
       }]
     );

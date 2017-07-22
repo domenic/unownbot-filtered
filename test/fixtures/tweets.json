@@ -1,9 +1,9 @@
 [
   {
-    "created_at": "Sat Jul 15 02:55:26 +0000 2017",
-    "id": 886056584975065100,
-    "id_str": "886056584975065089",
-    "text": "Unown (IV: -, TTL: &lt;10m 0s) [Kisarazu, Chiba, JP]: https://t.co/kzURqyhnOu",
+    "created_at": "Sat Jul 22 22:25:07 +0000 2017",
+    "id": 888887661565403100,
+    "id_str": "888887661565403137",
+    "text": "**Unown** (X) (IV: 28%, CP: 38, DSP: &lt;20m 0s)\n[Potts Hill, Sydney, New South Wales, AU]\nhttps://t.co/QIqRrpRLKq\n-33.89882,151.03017",
     "truncated": false,
     "entities": {
       "hashtags": [],
@@ -11,12 +11,12 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/kzURqyhnOu",
-          "expanded_url": "https://maps.google.com/?q=35.41025,139.93000",
-          "display_url": "maps.google.com/?q=35.41025,13…",
+          "url": "https://t.co/QIqRrpRLKq",
+          "expanded_url": "https://maps.google.com/?q=-33.89882,151.03017",
+          "display_url": "maps.google.com/?q=-33.89882,1…",
           "indices": [
-            54,
-            77
+            91,
+            114
           ]
         }
       ]
@@ -41,13 +41,13 @@
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
-    "lang": "ht"
+    "lang": "en"
   },
   {
-    "created_at": "Sat Jul 15 02:46:08 +0000 2017",
-    "id": 886054243051774000,
-    "id_str": "886054243051773952",
-    "text": "Unown (V) (IV: 60%, TTL: &lt;10m 0s) [Parkville, Melbourne, Victoria, AU]: https://t.co/sCs9SBqVrs",
+    "created_at": "Sat Jul 22 22:14:06 +0000 2017",
+    "id": 888884889201778700,
+    "id_str": "888884889201778689",
+    "text": "**Unown** (O) (IV: 64%, CP: 1569, DSP: &lt;20m 0s)\n[Chicago, Illinois, US]\nhttps://t.co/DWnW7WEY0r\n41.85571,-87.62361",
     "truncated": false,
     "entities": {
       "hashtags": [],
@@ -55,9 +55,9 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/sCs9SBqVrs",
-          "expanded_url": "https://maps.google.com/?q=-37.78350,144.95107",
-          "display_url": "maps.google.com/?q=-37.78350,1…",
+          "url": "https://t.co/DWnW7WEY0r",
+          "expanded_url": "https://maps.google.com/?q=41.85571,-87.62361",
+          "display_url": "maps.google.com/?q=41.85571,-8…",
           "indices": [
             75,
             98
@@ -80,18 +80,18 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 9,
+    "retweet_count": 1,
+    "favorite_count": 4,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
-    "lang": "et"
+    "lang": "en"
   },
   {
-    "created_at": "Sat Jul 15 02:40:05 +0000 2017",
-    "id": 886052722352439300,
-    "id_str": "886052722352439297",
-    "text": "Unown (R) (IV: 66%, TTL: &lt;10m 0s) [Sin Ming, Singapore, SG]: https://t.co/aJD3IRZ1Db",
+    "created_at": "Sat Jul 22 22:01:06 +0000 2017",
+    "id": 888881616314966000,
+    "id_str": "888881616314966016",
+    "text": "**Unown** (I) (IV: 28%, CP: 115, DSP: &lt;20m 0s)\n[Warriewood, Sydney, New South Wales, AU]\nhttps://t.co/9jGhTiyz15\n-33.69328,151.30958",
     "truncated": false,
     "entities": {
       "hashtags": [],
@@ -99,12 +99,12 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/aJD3IRZ1Db",
-          "expanded_url": "https://maps.google.com/?q=1.36052,103.83698",
-          "display_url": "maps.google.com/?q=1.36052,103…",
+          "url": "https://t.co/9jGhTiyz15",
+          "expanded_url": "https://maps.google.com/?q=-33.69328,151.30958",
+          "display_url": "maps.google.com/?q=-33.69328,1…",
           "indices": [
-            64,
-            87
+            92,
+            115
           ]
         }
       ]
@@ -125,17 +125,17 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 0,
-    "favorite_count": 6,
+    "favorite_count": 2,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
     "lang": "en"
   },
   {
-    "created_at": "Sat Jul 15 02:23:09 +0000 2017",
-    "id": 886048461086277600,
-    "id_str": "886048461086277632",
-    "text": "Unown (D) (IV: 44%, TTL: &lt;10m 0s) [Vaughan, Ontario, CA]: https://t.co/a2iY81ThPS",
+    "created_at": "Sat Jul 22 21:49:08 +0000 2017",
+    "id": 888878606323036200,
+    "id_str": "888878606323036160",
+    "text": "**Unown** (D) (IV: 26%, CP: 587, DSP: &lt;20m 0s)\n[Vaughan, Ontario, CA]\nhttps://t.co/7WOt7q6qKE\n43.82186,-79.50655",
     "truncated": false,
     "entities": {
       "hashtags": [],
@@ -143,56 +143,133 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/a2iY81ThPS",
-          "expanded_url": "https://maps.google.com/?q=43.84749,-79.53044",
-          "display_url": "maps.google.com/?q=43.84749,-7…",
+          "url": "https://t.co/7WOt7q6qKE",
+          "expanded_url": "https://maps.google.com/?q=43.82186,-79.50655",
+          "display_url": "maps.google.com/?q=43.82186,-7…",
+          "indices": [
+            73,
+            96
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Jul 22 21:23:07 +0000 2017",
+    "id": 888872058079158300,
+    "id_str": "888872058079158272",
+    "text": "**Unown** (V) (IV: 66%, CP: 404, DSP: &lt;20m 0s)\n[Cambridge, Massachusetts, US]\nhttps://t.co/DfdZjAxjLP\n42.37084,-71.09783",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/DfdZjAxjLP",
+          "expanded_url": "https://maps.google.com/?q=42.37084,-71.09783",
+          "display_url": "maps.google.com/?q=42.37084,-7…",
+          "indices": [
+            81,
+            104
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Jul 22 20:55:47 +0000 2017",
+    "id": 888865179856887800,
+    "id_str": "888865179856887812",
+    "text": "Sorry folks, we were down for a little bit for maintinence.  Apparently NoFest trickled over to us a little.... :D",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 27,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Jul 22 19:42:42 +0000 2017",
+    "id": 888846785770250200,
+    "id_str": "888846785770250240",
+    "text": "**Unown** (IV: -, CP: -, DSP: 19m 55s)\n[London, Ontario, CA]\nhttps://t.co/5lswgpO14R\n42.98498,-81.23867",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/5lswgpO14R",
+          "expanded_url": "https://maps.google.com/?q=42.98498,-81.23867",
+          "display_url": "maps.google.com/?q=42.98498,-8…",
           "indices": [
             61,
             84
-          ]
-        }
-      ]
-    },
-    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 6,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Sat Jul 15 02:21:09 +0000 2017",
-    "id": 886047954972270600,
-    "id_str": "886047954972270594",
-    "text": "Unown (IV: 49%, TTL: 24m 22s) [Round Lake Beach, Illinois, US]: https://t.co/dPV1tsmD0K",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [],
-      "urls": [
-        {
-          "url": "https://t.co/dPV1tsmD0K",
-          "expanded_url": "https://maps.google.com/?q=42.38131,-88.06614",
-          "display_url": "maps.google.com/?q=42.38131,-8…",
-          "indices": [
-            64,
-            87
           ]
         }
       ]
@@ -220,18 +297,28 @@
     "lang": "en"
   },
   {
-    "created_at": "Sat Jul 15 02:17:31 +0000 2017",
-    "id": 886047041570299900,
-    "id_str": "886047041570299904",
-    "text": "Just fixed the maps link, sorry folks!  Should be better now  ;)",
+    "created_at": "Sat Jul 22 19:19:06 +0000 2017",
+    "id": 888840846711312400,
+    "id_str": "888840846711312384",
+    "text": "**Unown** (C) (IV: 64%, CP: 385, DSP: &lt;20m 0s)\n[Chicago, Illinois, US]\nhttps://t.co/9WWpZnLuTg\n41.89525,-87.63441",
     "truncated": false,
     "entities": {
       "hashtags": [],
       "symbols": [],
       "user_mentions": [],
-      "urls": []
+      "urls": [
+        {
+          "url": "https://t.co/9WWpZnLuTg",
+          "expanded_url": "https://maps.google.com/?q=41.89525,-87.63441",
+          "display_url": "maps.google.com/?q=41.89525,-8…",
+          "indices": [
+            74,
+            97
+          ]
+        }
+      ]
     },
-    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
@@ -246,17 +333,18 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 0,
+    "retweet_count": 2,
     "favorite_count": 8,
     "favorited": false,
     "retweeted": false,
-    "lang": "en"
+    "possibly_sensitive": false,
+    "lang": "fr"
   },
   {
-    "created_at": "Sat Jul 15 02:06:23 +0000 2017",
-    "id": 886044240966369300,
-    "id_str": "886044240966369281",
-    "text": "Unown (IV: N/A, TTL: &lt;10m 0s) [Navajo, San Diego, California, US]: https://t.co/FCEM2TQrC1",
+    "created_at": "Sat Jul 22 19:01:30 +0000 2017",
+    "id": 888836417169743900,
+    "id_str": "888836417169743872",
+    "text": "**Unown** (IV: -, CP: -, DSP: &lt;20m 0s)\n[Asahi, Yokohama, Kanagawa, JP]\nhttps://t.co/1ZTwZnHhiJ\n35.47765,139.52247",
     "truncated": false,
     "entities": {
       "hashtags": [],
@@ -264,12 +352,12 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/FCEM2TQrC1",
-          "expanded_url": "https://maps.google.com/?=32.80037,-117.02143",
-          "display_url": "maps.google.com/?=32.80037,-11…",
+          "url": "https://t.co/1ZTwZnHhiJ",
+          "expanded_url": "https://maps.google.com/?q=35.47765,139.52247",
+          "display_url": "maps.google.com/?q=35.47765,13…",
           "indices": [
-            70,
-            93
+            74,
+            97
           ]
         }
       ]
@@ -294,21 +382,31 @@
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
-    "lang": "ht"
+    "lang": "tl"
   },
   {
-    "created_at": "Fri Jul 14 18:30:05 +0000 2017",
-    "id": 885929408397099000,
-    "id_str": "885929408397099008",
-    "text": "Go figures, the day the bot is due to come back online, PTC servers go down.  We're ready when they're ready!",
+    "created_at": "Sat Jul 22 18:59:08 +0000 2017",
+    "id": 888835820798398500,
+    "id_str": "888835820798398464",
+    "text": "**Unown** (R) (IV: 51%, CP: 469, DSP: &lt;20m 0s)\n[Chelsea, Massachusetts, US]\nhttps://t.co/Xgfa7SbI2J\n42.38838,-71.03107",
     "truncated": false,
     "entities": {
       "hashtags": [],
       "symbols": [],
       "user_mentions": [],
-      "urls": []
+      "urls": [
+        {
+          "url": "https://t.co/Xgfa7SbI2J",
+          "expanded_url": "https://maps.google.com/?q=42.38838,-71.03107",
+          "display_url": "maps.google.com/?q=42.38838,-7…",
+          "indices": [
+            79,
+            102
+          ]
+        }
+      ]
     },
-    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
@@ -323,140 +421,41 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 5,
-    "favorite_count": 56,
+    "retweet_count": 0,
+    "favorite_count": 2,
     "favorited": false,
     "retweeted": false,
+    "possibly_sensitive": false,
     "lang": "en"
   },
   {
-    "created_at": "Fri Jul 14 08:25:37 +0000 2017",
-    "id": 885777291560857600,
-    "id_str": "885777291560857602",
-    "text": "@LegendNebulaX https://t.co/wy6DeXhGNS",
+    "created_at": "Sat Jul 22 18:54:45 +0000 2017",
+    "id": 888834718749175800,
+    "id_str": "888834718749175808",
+    "text": "**Unown** (IV: -, CP: -, DSP: 59m 56s)\n[Coronado, California, US]\nhttps://t.co/ImZjEg0QNA\n32.68503,-117.17349",
     "truncated": false,
     "entities": {
       "hashtags": [],
       "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "LegendNebulaX",
-          "name": "Son Goku",
-          "id": 885764246088302600,
-          "id_str": "885764246088302593",
-          "indices": [
-            0,
-            14
-          ]
-        }
-      ],
+      "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/wy6DeXhGNS",
-          "expanded_url": "https://discord.gg/unown",
-          "display_url": "discord.gg/unown",
+          "url": "https://t.co/ImZjEg0QNA",
+          "expanded_url": "https://maps.google.com/?q=32.68503,-117.17349",
+          "display_url": "maps.google.com/?q=32.68503,-1…",
           "indices": [
-            15,
-            38
+            66,
+            89
           ]
         }
       ]
     },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 885766133457932300,
-    "in_reply_to_status_id_str": "885766133457932289",
-    "in_reply_to_user_id": 885764246088302600,
-    "in_reply_to_user_id_str": "885764246088302593",
-    "in_reply_to_screen_name": "LegendNebulaX",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 1,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "und"
-  },
-  {
-    "created_at": "Wed Jul 12 23:44:51 +0000 2017",
-    "id": 885283848766058500,
-    "id_str": "885283848766058496",
-    "text": "@Bhenzz19 Really?  Join my discord and chat with the legit users who use the geolocation I provide.",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "Bhenzz19",
-          "name": "Brandon Hendzel",
-          "id": 604177726,
-          "id_str": "604177726",
-          "indices": [
-            0,
-            9
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 885278780910174200,
-    "in_reply_to_status_id_str": "885278780910174208",
-    "in_reply_to_user_id": 604177726,
-    "in_reply_to_user_id_str": "604177726",
-    "in_reply_to_screen_name": "Bhenzz19",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Wed Jul 12 23:16:33 +0000 2017",
-    "id": 885276723876687900,
-    "id_str": "885276723876687872",
-    "text": "@Pokegiver0e Friday!  Pending nothing goes wrong until then 😁",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "Pokegiver0e",
-          "name": "Pokemaster",
-          "id": 834362077141680100,
-          "id_str": "834362077141680129",
-          "indices": [
-            0,
-            12
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 885276030717624300,
-    "in_reply_to_status_id_str": "885276030717624321",
-    "in_reply_to_user_id": 834362077141680100,
-    "in_reply_to_user_id_str": "834362077141680129",
-    "in_reply_to_screen_name": "Pokegiver0e",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
     "user": {
       "id": 837234225715818500,
       "id_str": "837234225715818497"
@@ -470,29 +469,32 @@
     "favorite_count": 3,
     "favorited": false,
     "retweeted": false,
+    "possibly_sensitive": false,
     "lang": "en"
   },
   {
-    "created_at": "Wed Jul 12 23:13:02 +0000 2017",
-    "id": 885275840489152500,
-    "id_str": "885275840489152512",
-    "text": "So what's everyone's conspiracy theory for the global unlocks in #PokemonGo next weekend?",
+    "created_at": "Sat Jul 22 18:36:15 +0000 2017",
+    "id": 888830064523006000,
+    "id_str": "888830064523005952",
+    "text": "**Unown** (IV: -, CP: -, DSP: 29m 48s)\n[Farmington Hills, Michigan, US]\nhttps://t.co/7PjAHpNhQn\n42.46080,-83.42712",
     "truncated": false,
     "entities": {
-      "hashtags": [
-        {
-          "text": "PokemonGo",
-          "indices": [
-            65,
-            75
-          ]
-        }
-      ],
+      "hashtags": [],
       "symbols": [],
       "user_mentions": [],
-      "urls": []
+      "urls": [
+        {
+          "url": "https://t.co/7PjAHpNhQn",
+          "expanded_url": "https://maps.google.com/?q=42.46080,-83.42712",
+          "display_url": "maps.google.com/?q=42.46080,-8…",
+          "indices": [
+            72,
+            95
+          ]
+        }
+      ]
     },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
@@ -508,40 +510,40 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 2,
-    "favorite_count": 21,
+    "favorite_count": 3,
     "favorited": false,
     "retweeted": false,
+    "possibly_sensitive": false,
     "lang": "en"
   },
   {
-    "created_at": "Wed Jul 12 20:20:32 +0000 2017",
-    "id": 885232430076100600,
-    "id_str": "885232430076100608",
-    "text": "@Avuddayappan7 14k followers say otherwise.  It's just not the same as it used to be, that's all.  Don't be salty.",
+    "created_at": "Sat Jul 22 17:48:25 +0000 2017",
+    "id": 888818025226305500,
+    "id_str": "888818025226305536",
+    "text": "**Unown** (IV: -, CP: -, DSP: 28m 24s)\n[Wheeling, Illinois, US]\nhttps://t.co/tiD1sbSeNw\n42.12759,-87.92149",
     "truncated": false,
     "entities": {
       "hashtags": [],
       "symbols": [],
-      "user_mentions": [
+      "user_mentions": [],
+      "urls": [
         {
-          "screen_name": "Avuddayappan7",
-          "name": "Avuddayappan",
-          "id": 820311306641309700,
-          "id_str": "820311306641309696",
+          "url": "https://t.co/tiD1sbSeNw",
+          "expanded_url": "https://maps.google.com/?q=42.12759,-87.92149",
+          "display_url": "maps.google.com/?q=42.12759,-8…",
           "indices": [
-            0,
-            14
+            64,
+            87
           ]
         }
-      ],
-      "urls": []
+      ]
     },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 885204962053062700,
-    "in_reply_to_status_id_str": "885204962053062656",
-    "in_reply_to_user_id": 820311306641309700,
-    "in_reply_to_user_id_str": "820311306641309696",
-    "in_reply_to_screen_name": "Avuddayappan7",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
     "user": {
       "id": 837234225715818500,
       "id_str": "837234225715818497"
@@ -552,16 +554,17 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 0,
-    "favorite_count": 1,
+    "favorite_count": 7,
     "favorited": false,
     "retweeted": false,
+    "possibly_sensitive": false,
     "lang": "en"
   },
   {
-    "created_at": "Wed Jul 12 18:07:37 +0000 2017",
-    "id": 885198980841394200,
-    "id_str": "885198980841394176",
-    "text": "Get those donations in folks.  We could be up and running by Friday night!  Exciting!  https://t.co/LpvaJceg0Y",
+    "created_at": "Sat Jul 22 16:04:07 +0000 2017",
+    "id": 888791776617676800,
+    "id_str": "888791776617676800",
+    "text": "**Unown** (E) (IV: 37%, CP: 556, DSP: &lt;20m 0s)\n[Toronto, Ontario, CA]\nhttps://t.co/7twJtpQzW2\n43.72370,-79.40238",
     "truncated": false,
     "entities": {
       "hashtags": [],
@@ -569,17 +572,17 @@
       "user_mentions": [],
       "urls": [
         {
-          "url": "https://t.co/LpvaJceg0Y",
-          "expanded_url": "https://cash.me/$unown",
-          "display_url": "cash.me/$unown",
+          "url": "https://t.co/7twJtpQzW2",
+          "expanded_url": "https://maps.google.com/?q=43.72370,-79.40238",
+          "display_url": "maps.google.com/?q=43.72370,-7…",
           "indices": [
-            87,
-            110
+            73,
+            96
           ]
         }
       ]
     },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
@@ -595,255 +598,35 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 1,
-    "favorite_count": 16,
+    "favorite_count": 4,
     "favorited": false,
     "retweeted": false,
     "possibly_sensitive": false,
     "lang": "en"
   },
   {
-    "created_at": "Tue Jul 11 00:53:05 +0000 2017",
-    "id": 884576244519579600,
-    "id_str": "884576244519579648",
-    "text": "@shasters @TyranitarBot Would love to be back, but $8 in donations hardly helps.  Hoping for a better turnout as the week goes on.  😨",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "shasters",
-          "name": "angelpeaches",
-          "id": 138485452,
-          "id_str": "138485452",
-          "indices": [
-            0,
-            9
-          ]
-        },
-        {
-          "screen_name": "TyranitarBot",
-          "name": "TyranitarBot",
-          "id": 835342762434261000,
-          "id_str": "835342762434260992",
-          "indices": [
-            10,
-            23
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 884246685328834600,
-    "in_reply_to_status_id_str": "884246685328834560",
-    "in_reply_to_user_id": 138485452,
-    "in_reply_to_user_id_str": "138485452",
-    "in_reply_to_screen_name": "shasters",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 6,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Mon Jul 10 21:34:45 +0000 2017",
-    "id": 884526328921378800,
-    "id_str": "884526328921378816",
-    "text": "@JoshKuhaha Read up on square if you're unfamiliar.  I trust them with my money 🤷‍♂",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "JoshKuhaha",
-          "name": "TMG VIP",
-          "id": 859303017333391400,
-          "id_str": "859303017333391360",
-          "indices": [
-            0,
-            11
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 884523646416437200,
-    "in_reply_to_status_id_str": "884523646416437249",
-    "in_reply_to_user_id": 859303017333391400,
-    "in_reply_to_user_id_str": "859303017333391360",
-    "in_reply_to_screen_name": "JoshKuhaha",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 1,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Mon Jul 10 21:33:32 +0000 2017",
-    "id": 884526022217134100,
-    "id_str": "884526022217134080",
-    "text": "@fishron_dk PayPal account was, yes.  I refuse to give into their practices.",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "fishron_dk",
-          "name": "FishronDK",
-          "id": 772601936415567900,
-          "id_str": "772601936415567872",
-          "indices": [
-            0,
-            11
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 884519722674397200,
-    "in_reply_to_status_id_str": "884519722674397184",
-    "in_reply_to_user_id": 772601936415567900,
-    "in_reply_to_user_id_str": "772601936415567872",
-    "in_reply_to_screen_name": "fishron_dk",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 1,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Mon Jul 10 15:35:30 +0000 2017",
-    "id": 884435920069513200,
-    "id_str": "884435920069513216",
-    "text": "@Creeperkillar97 Have fun with that.",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "Creeperkillar97",
-          "name": "Ben Livingstone",
-          "id": 773235892941156400,
-          "id_str": "773235892941156352",
-          "indices": [
-            0,
-            16
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 884435686702624800,
-    "in_reply_to_status_id_str": "884435686702624773",
-    "in_reply_to_user_id": 773235892941156400,
-    "in_reply_to_user_id_str": "773235892941156352",
-    "in_reply_to_screen_name": "Creeperkillar97",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 1,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Mon Jul 10 15:15:55 +0000 2017",
-    "id": 884430992911552500,
-    "id_str": "884430992911552512",
-    "text": "@LewisSquish813 Absolutely.  I can have it up by the weekend.",
-    "truncated": false,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "user_mentions": [
-        {
-          "screen_name": "LewisSquish813",
-          "name": "Lewis Iwasiw",
-          "id": 844657523701530600,
-          "id_str": "844657523701530624",
-          "indices": [
-            0,
-            15
-          ]
-        }
-      ],
-      "urls": []
-    },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-    "in_reply_to_status_id": 884422229701906400,
-    "in_reply_to_status_id_str": "884422229701906433",
-    "in_reply_to_user_id": 844657523701530600,
-    "in_reply_to_user_id_str": "844657523701530624",
-    "in_reply_to_screen_name": "LewisSquish813",
-    "user": {
-      "id": 837234225715818500,
-      "id_str": "837234225715818497"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 1,
-    "favorited": false,
-    "retweeted": false,
-    "lang": "en"
-  },
-  {
-    "created_at": "Mon Jul 10 14:19:36 +0000 2017",
-    "id": 884416822514262000,
-    "id_str": "884416822514262021",
-    "text": "Still accepting donations folks.  Yes, Square Cash is US-only right now.  PayPal was a nightmare, sorry.",
+    "created_at": "Sat Jul 22 16:00:23 +0000 2017",
+    "id": 888790839404535800,
+    "id_str": "888790839404535808",
+    "text": "**Unown** (IV: -, CP: -, DSP: &lt;20m 0s)\n[Koto, Tokyo, JP]\nhttps://t.co/e9HJU5oUoo\n35.68537,139.83813",
     "truncated": false,
     "entities": {
       "hashtags": [],
       "symbols": [],
       "user_mentions": [],
-      "urls": []
+      "urls": [
+        {
+          "url": "https://t.co/e9HJU5oUoo",
+          "expanded_url": "https://maps.google.com/?q=35.68537,139.83813",
+          "display_url": "maps.google.com/?q=35.68537,13…",
+          "indices": [
+            60,
+            83
+          ]
+        }
+      ]
     },
-    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
     "in_reply_to_status_id": null,
     "in_reply_to_status_id_str": null,
     "in_reply_to_user_id": null,
@@ -858,10 +641,231 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 2,
-    "favorite_count": 18,
+    "retweet_count": 0,
+    "favorite_count": 4,
     "favorited": false,
     "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "tl"
+  },
+  {
+    "created_at": "Sat Jul 22 15:32:07 +0000 2017",
+    "id": 888783726506680300,
+    "id_str": "888783726506680320",
+    "text": "**Unown** (IV: -, CP: -, DSP: 8m 32s)\n[Phuket, Phuket Province, TH]\nhttps://t.co/mhhPG8AYfW\n7.74521,98.37453",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/mhhPG8AYfW",
+          "expanded_url": "https://maps.google.com/?q=7.74521,98.37453",
+          "display_url": "maps.google.com/?q=7.74521,98.…",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Jul 22 15:01:06 +0000 2017",
+    "id": 888775919204159500,
+    "id_str": "888775919204159488",
+    "text": "**Unown** (E) (IV: 35%, CP: 742, DSP: &lt;20m 0s)\n[University District, Seattle, Washington, US]\nhttps://t.co/1edJ2JWQgz\n47.66152,-122.29601",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/1edJ2JWQgz",
+          "expanded_url": "https://maps.google.com/?q=47.66152,-122.29601",
+          "display_url": "maps.google.com/?q=47.66152,-1…",
+          "indices": [
+            97,
+            120
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Jul 22 15:00:34 +0000 2017",
+    "id": 888775785292550100,
+    "id_str": "888775785292550145",
+    "text": "**Unown** (IV: -, CP: -, DSP: &lt;20m 0s)\n[Toyama, JP]\nhttps://t.co/Gao6cPgRct\n36.68401,137.22815",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Gao6cPgRct",
+          "expanded_url": "https://maps.google.com/?q=36.68401,137.22815",
+          "display_url": "maps.google.com/?q=36.68401,13…",
+          "indices": [
+            55,
+            78
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Jul 22 14:19:39 +0000 2017",
+    "id": 888765486778925000,
+    "id_str": "888765486778925057",
+    "text": "**Unown** (IV: -, CP: -, DSP: &lt;20m 0s)\n[Yahata Higashi Ward, Kita Kyushu, Fukuoka Prefecture, JP]\nhttps://t.co/jl7EKSiSQI\n33.85448,130.86392",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/jl7EKSiSQI",
+          "expanded_url": "https://maps.google.com/?q=33.85448,130.86392",
+          "display_url": "maps.google.com/?q=33.85448,13…",
+          "indices": [
+            101,
+            124
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "tl"
+  },
+  {
+    "created_at": "Sat Jul 22 14:07:43 +0000 2017",
+    "id": 888762482960941000,
+    "id_str": "888762482960941058",
+    "text": "**Unown** (IV: -, CP: -, DSP: &lt;20m 0s)\n[California Oaks, Murrieta, California, US]\nhttps://t.co/3H2j66o09E\n33.55867,-117.18424",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/3H2j66o09E",
+          "expanded_url": "https://maps.google.com/?q=33.55867,-117.18424",
+          "display_url": "maps.google.com/?q=33.55867,-1…",
+          "indices": [
+            86,
+            109
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://twitter.com/UnownBot\" rel=\"nofollow\">UnownBot</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 837234225715818500,
+      "id_str": "837234225715818497"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
     "lang": "en"
   }
 ]
